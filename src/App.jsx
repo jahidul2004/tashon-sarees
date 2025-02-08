@@ -1,8 +1,11 @@
+import NavBar from "./components/navbar/NavBar";
+
 function App() {
     return (
         <>
-            
-            <h1>Hello Dhaka</h1>
+           {/* Navbar */}
+           <NavBar></NavBar>
+           {/* Navbar end */}
         </>
     );
 }
