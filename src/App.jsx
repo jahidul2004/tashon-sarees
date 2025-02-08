@@ -2,6 +2,7 @@ import Benefit from "./components/benefit/Benefit";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import NavBar from "./components/navbar/NavBar";
+import Stats from "./components/stats/Stats";
 
 function App() {
     return (
@@ -21,6 +22,10 @@ function App() {
            {/* Benefit */}
            <Benefit></Benefit>
            {/* Benefit end */}
+
+           {/* Stats */}
+           <Stats></Stats>
+           {/* Stats end */}
         </>
     );
 }
