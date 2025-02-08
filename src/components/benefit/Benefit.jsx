@@ -37,7 +37,7 @@ const Benefit = () => {
                 </ul>
 
                 <div className="flex items-center justify-center my-5">
-                    <button className="my-5 btn bg-[#0a1728] text-white">
+                    <button className="my-5 btn btn-lg bg-[#0a1728] text-white">
                         অর্ডার করুন
                     </button>
                 </div>
