@@ -1,3 +1,4 @@
+import Benefit from "./components/benefit/Benefit";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import NavBar from "./components/navbar/NavBar";
@@ -16,6 +17,10 @@ function App() {
            {/* Contact */}
            <Contact></Contact>
            {/* Contact end */}
+
+           {/* Benefit */}
+           <Benefit></Benefit>
+           {/* Benefit end */}
         </>
     );
 }
