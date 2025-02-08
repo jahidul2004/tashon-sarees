@@ -2,6 +2,7 @@ import Benefit from "./components/benefit/Benefit";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import NavBar from "./components/navbar/NavBar";
+import OrderForm from "./components/orderForm/OrderForm";
 import Stats from "./components/stats/Stats";
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
            {/* Stats */}
            <Stats></Stats>
            {/* Stats end */}
+
+           {/* Order form */}
+           <OrderForm></OrderForm>
+           {/* Order form end */}
         </>
     );
 }
