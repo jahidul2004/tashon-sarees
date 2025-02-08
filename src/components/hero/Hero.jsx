@@ -67,6 +67,24 @@ const Hero = () => {
                     ))}
                 </Swiper>
             </div>
+
+            <div className="text-center bg-[#0a172807] p-5 md:p-10">
+                <p className="text-xl font-semibold p-5">
+                    ট্রেন্ডি ডিজাইন, প্রিমিয়াম কোয়ালিটি, হালকা ও আরামদায়ক, হাতের
+                    কাজ, ও দীর্ঘস্থায়ী কাপড়।
+                </p>
+
+                <h1 className="text-2xl font-bold my-1">
+                    রেগুলার প্রাইজঃ <del>৭৫০ টাকা</del>
+                </h1>
+                <h1 className="text-2xl font-bold my-1">
+                    অফার প্রাইজঃ ৫০০ টাকা
+                </h1>
+
+                <button className="my-5 btn bg-[#0a1728] text-white">
+                    অর্ডার করুন
+                </button>
+            </div>
         </div>
     );
 };
